@@ -52,7 +52,7 @@ const Header = () => {
       <nav className="nav-container">
         <Link to="/" className="logo">
           <span className="logo-icon">🏥</span>
-          <span className="logo-text">醫療轉型</span>
+          <span className="logo-text">千鏵</span>
         </Link>
 
         {/* 漢堡選單按鈕 */}

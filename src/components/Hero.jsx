@@ -3,12 +3,14 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
+  //定義特色
   const features = [
     { icon: '🔄', text: '全方位轉型', delay: 0.8 },
     { icon: '📱', text: '數位化升級', delay: 0.9 },
     { icon: '📊', text: '數據驅動', delay: 1.0 }
   ];
 
+  //定義統計數據
   const stats = [
     { number: '50', symbol: '+', label: '成功案例', delay: 1.2 },
     { number: '98', symbol: '%', label: '客戶滿意度', delay: 1.3 },
