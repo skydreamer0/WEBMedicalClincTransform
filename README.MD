@@ -20,14 +20,7 @@
 - 響應式設計
 - GitHub Pages 自動部署
 
-## 目錄結構
-project/
-│
-├── index.html # 首頁
-├── css/ # 樣式文件
-│ └── style.css
-├── images/ # 圖片資源
-└── README.md
+
 
 bash
 安裝依賴
@@ -89,3 +82,27 @@ project/
 ### 手動觸發部署
 
 您也可以在 GitHub 倉庫的 Actions 頁面手動觸發部署流程。
+
+## 自動化工作流程
+
+本專案使用 GitHub Actions 進行自動化測試和部署。
+
+### 自動觸發條件
+- 推送到 main 分支
+- 建立 Pull Request 到 main 分支
+
+### 手動觸發
+1. 前往 Actions 頁面
+2. 選擇 "CI/CD Pipeline"
+3. 點擊 "Run workflow"
+
+### 發布新版本
+
+![Deploy Status](https://github.com/{username}/{repository}/actions/workflows/deploy.yml/badge.svg)
+
+## 部署狀態
+
+本網站使用 GitHub Actions 自動部署至 GitHub Pages。
+您可以在 [Actions 頁面](https://github.com/{username}/{repository}/actions) 查看部署狀態。
+
+## 本地開發
