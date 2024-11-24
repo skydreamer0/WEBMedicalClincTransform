@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/WEBMedicalClincTransform/static/css/main.20ec0f05.css",
-    "main.js": "/WEBMedicalClincTransform/static/js/main.e4f853e2.js",
-    "index.html": "/WEBMedicalClincTransform/index.html",
-    "main.20ec0f05.css.map": "/WEBMedicalClincTransform/static/css/main.20ec0f05.css.map",
-    "main.e4f853e2.js.map": "/WEBMedicalClincTransform/static/js/main.e4f853e2.js.map"
+    "main.css": "/static/css/main.87237779.css",
+    "main.js": "/static/js/main.d8de44d6.js",
+    "index.html": "/index.html",
+    "main.87237779.css.map": "/static/css/main.87237779.css.map",
+    "main.d8de44d6.js.map": "/static/js/main.d8de44d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.20ec0f05.css",
-    "static/js/main.e4f853e2.js"
+    "static/css/main.87237779.css",
+    "static/js/main.d8de44d6.js"
   ]
 }
