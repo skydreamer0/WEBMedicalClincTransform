@@ -1415,4 +1415,129 @@ footer {
   .team-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* 聯絡我們區塊的手機版優化 */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: 6rem 1rem;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 0;
+    margin-top: 2rem;
+  }
+
+  .contact-info {
+    padding: 2rem;
+    margin: 0 1rem;
+    border-radius: 16px;
+  }
+
+  .info-item {
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+  }
+
+  .info-icon {
+    font-size: 1.8rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+  }
+
+  .contact-form {
+    padding: 2rem;
+    margin: 0 1rem;
+    border-radius: 16px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.8rem 1rem;
+    font-size: 1rem;
+  }
+
+  .form-group textarea {
+    height: 120px;
+  }
+
+  .submit-button {
+    margin-top: 1.5rem;
+    padding: 1rem;
+  }
+
+  /* 改進區塊標題在手機版的顯示 */
+  .section-header {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+
+/* 更小螢幕的優化 */
+@media (max-width: 375px) {
+  .contact-info,
+  .contact-form {
+    padding: 1.5rem;
+    margin: 0 0.5rem;
+  }
+
+  .info-item {
+    padding: 1rem;
+  }
+
+  .info-icon {
+    font-size: 1.5rem;
+    padding: 0.6rem;
+  }
+}
+
+/* 確保內容在各種螢幕尺寸下都能置中 */
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* 改進表單在手機版的可用性 */
+@media (max-width: 768px) {
+  .form-group label {
+    margin-bottom: 0.5rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* 改善觸控體驗 */
+  .submit-button {
+    min-height: 48px; /* 確保觸控區域足夠大 */
+  }
 } 
