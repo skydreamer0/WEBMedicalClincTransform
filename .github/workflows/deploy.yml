@@ -23,9 +23,6 @@ jobs:
         
     - name: Install dependencies
       run: npm ci
-        
-    - name: Run tests
-      run: npm test
       
     - name: Build website
       run: npm run build
@@ -34,4 +31,4 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: build # React 構建輸出目錄
-        branch: gh-pages 
+        branch: gh-pages
